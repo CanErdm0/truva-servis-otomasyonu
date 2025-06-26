@@ -1,0 +1,182 @@
+/* Google Fonts - Poppins fontu içe aktarılıyor */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Tüm elementler için genel sıfırlama ve font tanımı */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Sayfa arka planı ve ortalama */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("../images/backgroundpic.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Kayıt formu kapsayıcısı */
+.wrapper {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+
+
+/* Başlık stili */
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Input kutusu kapsayıcısı */
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+/* Input alanları */
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+/* Placeholder yazı rengi */
+.input-box input::placeholder {
+    color: #fff;
+}
+
+/* Input içindeki ikonlar */
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #fff;
+}
+
+
+/* Dosya ikonu konumlandırma */
+
+.input-box i.bxs-file {
+    position: absolute;
+    right: 15px; /* input kutusunun sağında */
+    top: 160%; /* dikey ortalama */
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #fff;
+    pointer-events: none; /* tıklamayı engelle, sadece görsel */
+}
+
+
+
+/* Kilit ikonunu biraz sola alıyoruz */
+.input-box i.bxs-lock,
+.input-box i.bxs-lock-alt {
+    right: 15px;
+}
+
+/* Göz ikonu için konumlandırma */
+.input-box .toggle-eye {
+    right: 45px;
+    cursor: pointer;
+}
+
+
+/* Hover efekti */
+.wrapper .remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+/* Kayıt ol butonu */
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-top: 50px;  /*  aşağı*/
+}
+
+/* Girişe yönlendirme linki alanı */
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+/* Giriş yap linki */
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Hover efekti */
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive ayarlar - mobil ekranlar */
+
+@media (max-width: 480px) {
+    /* Wrapper kutu küçültülüyor */
+    .wrapper {
+        width: 90%;
+        padding: 25px 20px;
+    }
+
+    /* Input yazı ve padding ayarı */
+    .input-box input {
+        font-size: 14px;
+        padding: 16px 40px 16px 16px;
+    }
+
+    /* İkon boyutu ve konumu */
+    .input-box i {
+        font-size: 18px;
+        right: 15px;
+    }
+
+    /* Buton yazı boyutu küçültülüyor */
+    .wrapper .btn {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+

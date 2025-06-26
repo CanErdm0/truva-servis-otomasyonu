@@ -1,0 +1,27 @@
+Time : 14:20:31
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM traktorler WHERE musteri_id = ?
+
+Time : 14:20:30
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM traktorler WHERE musteri_id = ?
+
+Time : 14:20:29
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM traktorler WHERE musteri_id = ?
+
+Time : 14:20:27
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM traktorler WHERE musteri_id = ?
+
+Time : 14:20:26
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM traktorler WHERE musteri_id = ?
+
+Time : 14:20:24
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM traktorler WHERE musteri_id = ?
+
+Time : 14:20:22
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM traktorler WHERE musteri_id = ?

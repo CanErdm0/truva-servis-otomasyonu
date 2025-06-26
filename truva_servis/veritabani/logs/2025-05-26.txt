@@ -1,0 +1,51 @@
+Time : 03:18:59
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.seri_no,
+        s.marka,
+        SUM(s.adet) AS toplam_adet,
+        s.s...' at line 3
+Raw SQL : SELECT 
+        s.id
+        s.seri_no,
+        s.marka,
+        SUM(s.adet) AS toplam_adet,
+        s.satis_fiyati,
+        k.kategoriler_adi AS kategori_adi,
+        ak.alt_kategoriler_adi AS alt_kategori_adi
+    FROM 
+        stoklar s
+    LEFT JOIN 
+        kategoriler k ON k.id = s.kategoriler_id
+    LEFT JOIN 
+        alt_kategoriler ak ON ak.id = s.alt_kategoriler_id
+    WHERE 
+        s.seri_no = :seri_no
+    GROUP BY 
+        s.seri_no, s.marka, s.satis_fiyati, k.kategoriler_adi, ak.alt_kategoriler_adi
+    
+
+Time : 02:44:11
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT 
+            s.id,
+            s.seri_no,
+            s.marka,
+            s.satis_fiyati,
+            k.kategoriler_adi AS kategori_adi,
+            ak.alt_kategoriler_adi AS alt_kategori_adi
+        FROM 
+            stoklar s
+        LEFT JOIN 
+            kategoriler k ON k.id = s.kategoriler_id
+        LEFT JOIN 
+            alt_kategoriler ak ON ak.id = s.alt_kategoriler_id
+        WHERE 
+            s.seri_no = ?
+        LIMIT 1
+        
+
+Time : 01:33:27
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'SELECT'
+Raw SQL : SELECT seri_no, stok_kategori, yedek_parca_ad, marka, SUM(adet) AS toplam_adet, birim_fiyat, kdv_orani, satis_fiyati 
+                     FROM stoklar 
+                     WHERE seri_no = :seri_no 
+                     GROUP BY seri_no, stok_kategori, yedek_parca_ad, marka, birim_fiyat, kdv_orani, satis_fiyati

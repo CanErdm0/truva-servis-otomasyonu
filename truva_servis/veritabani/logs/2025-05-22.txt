@@ -1,0 +1,258 @@
+Time : 19:20:17
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:10:12
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:10:11
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:10:09
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:10:09
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:10:06
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:10:06
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:10:06
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:10:05
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:07:34
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:07:34
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:07:34
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:07:34
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:07:33
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:03:54
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:03:52
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:03:47
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:03:46
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:03:46
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:03:46
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:01:20
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:01:00
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:00:50
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:00:50
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:00:50
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:00:49
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:00:49
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:00:49
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:00:47
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:00:46
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:00:46
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:00:45
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:00:43
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 19:00:40
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 18:42:40
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 18:37:40
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 18:37:37
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tedarikci_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)

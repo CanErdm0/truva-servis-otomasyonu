@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+/* Google Fonts'tan Poppins fontunu yüklüyoruz */
+
+/* Tüm elemanlar için genel sıfırlama ve font ayarı */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Sayfa ortalama ve arka plan ayarı */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("../images/backgroundpic.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* kutunun kapsayıcısı */
+.wrapper {
+    width: 100%;
+    max-width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+}
+
+
+
+/* Input kutularının dış kapsayıcısı */
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+/* Input alanlarının stili */
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+/* Placeholder yazı rengi */
+.input-box input::placeholder {
+    color: #fff;
+}
+
+/* Input içindeki ikonun konumlandırılması */
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+
+
+
+/* Şifremi unuttum linki */
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Link hover efekti */
+.wrapper .remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+/* buton */
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Kayıt ol linki kapsayıcısı */
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+/* Kayıt ol linki stili */
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Kayıt ol hover efekti */
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+/* Tablet ekranlar için responsive ayarlar */
+@media (max-width: 768px) {
+    .wrapper {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .wrapper h1 {
+        font-size: 30px;
+    }
+
+    .input-box input {
+        font-size: 14px;
+        padding: 15px 40px 15px 15px;
+    }
+
+    .wrapper .btn {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .register-link p a {
+        font-size: 14px;
+    }
+}
+
+/* Mobil ekranlar için responsive ayarlar */
+@media (max-width: 480px) {
+    .wrapper {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .wrapper h1 {
+        font-size: 26px;
+    }
+
+    .input-box input {
+        font-size: 14px;
+        padding: 12px 30px 12px 12px;
+    }
+
+    .wrapper .btn {
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .register-link p a {
+        font-size: 13px;
+    }
+}

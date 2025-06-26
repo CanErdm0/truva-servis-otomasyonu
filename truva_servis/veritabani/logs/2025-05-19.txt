@@ -1,0 +1,595 @@
+Time : 23:43:02
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:37:46
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:37:46
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:37:46
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:37:45
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:37:45
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:37:45
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:37:45
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:37:44
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:37:37
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:36:31
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:36:31
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:36:30
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:36:30
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:36:30
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:36:30
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:36:29
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:36:29
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:36:28
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:36:27
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:36:12
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:36:12
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:35:55
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:16:13
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:16:12
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:12:25
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 23:12:22
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 22:56:54
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 22:56:54
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 22:56:52
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 22:56:52
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 22:56:51
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 15:19:02
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 15:19:02
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 15:18:59
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO kullanicilar ( 
+        ad, soyad, email, telefon, sifre, adres_id, rol, tc_no 
+        ) VALUES ( 
+        :ad, :soyad, :email, :telefon, :sifre, :adres_id, :rol, :tc_no)
+
+Time : 14:00:24
+SQLSTATE[HY000] [2006] MySQL server has gone away
+
+Time : 01:02:28
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kdvDurumu' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 01:02:05
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kdvDurumu' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 01:02:04
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kdvDurumu' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 01:01:10
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kdvDurumu' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 01:00:07
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kdvDurumu' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 01:00:07
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kdvDurumu' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 01:00:03
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kdvDurumu' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:59:13
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kdvDurumu' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:58:46
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'yedek_parca_ad' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:58:45
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'yedek_parca_ad' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:58:45
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'yedek_parca_ad' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:58:42
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'yedek_parca_ad' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:58:07
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:58:06
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:58:05
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:53:05
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:53:05
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:53:05
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:53:05
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:53:05
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:53:00
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:52:25
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:52:24
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:52:24
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:51:01
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:51:01
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:51:01
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:51:01
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:51:00
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:51:00
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:50:59
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:50:05
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:49:30
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:49:30
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:49:30
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:49:30
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:49:30
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:49:21
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:49:14
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:45:03
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:45:02
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)
+
+Time : 00:44:54
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'field list'
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye,  
+        alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye,  
+        :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani)

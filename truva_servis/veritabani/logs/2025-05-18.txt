@@ -1,0 +1,8 @@
+Time : 15:42:36
+SQLSTATE[HY000] [2002] Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+
+Time : 15:42:01
+SQLSTATE[HY000] [2006] MySQL server has gone away
+
+Time : 15:26:42
+SQLSTATE[HY000] [2002] Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı

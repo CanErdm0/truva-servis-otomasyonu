@@ -1,0 +1,215 @@
+Time : 17:51:49
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.koy' in 'SELECT'
+Raw SQL : 
+    SELECT 
+        k.*, 
+        a.ulke, a.sehir, a.ilce, a.mahalle, a.sokak, a.cadde, a.daire, a.koy
+    FROM kullanicilar k
+    LEFT JOIN adresler a ON k.adres_id = a.id
+    WHERE k.id = :id
+
+
+Time : 16:07:10
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '( 
+            SELECT SUM(s2.adet) 
+            FROM stoklar s2 
+            ...' at line 23
+Raw SQL : SELECT  
+        stoklar.seri_no, 
+        stoklar.kategoriler_id, 
+        stoklar.alt_kategoriler_id, 
+        stoklar.marka, 
+        stoklar.adet, 
+        stoklar.kritik_seviye, 
+        stoklar.alis_tarihi, 
+        stoklar.garanti_suresi, 
+        stoklar.birim_fiyat, 
+        stoklar.satis_fiyati, 
+        stoklar.kdvDurumu, 
+        stoklar.kdv_orani, 
+        stoklar.olusturulma_tarihi, 
+        stoklar.guncellenme_tarihi, 
+        kategoriler.id AS kategori_id, 
+        alt_kategoriler.id AS alt_kategori_id, 
+        kategoriler.kategoriler_adi AS kategori_ad, 
+        alt_kategoriler.alt_kategoriler_adi AS alt_kategori_ad, 
+        tedarikciler.ad AS tedarikci_ad, 
+        tedarikciler.id AS tedarikci_id 
+ 
+        ( 
+            SELECT SUM(s2.adet) 
+            FROM stoklar s2 
+            WHERE  
+                s2.seri_no = stoklar.seri_no AND 
+                s2.kategoriler_id = stoklar.kategoriler_id AND 
+                s2.alt_kategoriler_id = stoklar.alt_kategoriler_id AND 
+                s2.marka = stoklar.marka 
+        ) AS toplam_adet, 
+ 
+        ( 
+            SELECT MAX(s3.kritik_seviye) 
+            FROM stoklar s3 
+            WHERE  
+                s3.seri_no = stoklar.seri_no AND 
+                s3.kategoriler_id = stoklar.kategoriler_id AND 
+                s3.alt_kategoriler_id = stoklar.alt_kategoriler_id AND 
+                s3.marka = stoklar.marka 
+        ) AS ortak_kritik_seviye 
+ 
+    FROM stoklar 
+    INNER JOIN tedarikciler ON stoklar.tedarikci_id = tedarikciler.id 
+    INNER JOIN kategoriler ON stoklar.kategoriler_id = kategoriler.id 
+    INNER JOIN alt_kategoriler ON stoklar.alt_kategoriler_id = alt_kategoriler.id 
+    ORDER BY stoklar.olusturulma_tarihi DESC
+
+Time : 15:06:55
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kategoriler_id' in 'WHERE'
+Raw SQL : SELECT * FROM stok_hareketleri WHERE kategoriler_id = :kategoriler_id
+
+Time : 15:03:22
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kategoriler_id' in 'WHERE'
+Raw SQL : SELECT * FROM stok_hareketleri WHERE kategoriler_id = :kategoriler_id
+
+Time : 14:48:31
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kategoriler_id' in 'INSERT INTO'
+Raw SQL : INSERT INTO stok_hareketleri ( 
+                seri_no, marka, miktar, aciklama, kategoriler_id, alt_kategoriler_id, musteri_id 
+            ) VALUES ( 
+                :seri_no, :marka, :miktar, :aciklama, :kategoriler_id, :alt_kategoriler_id, :musteri_id 
+            )
+
+Time : 14:39:49
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sh.alt_kategoriler_id' in 'ON'
+Raw SQL : SELECT  
+        k.ad, 
+        k.soyad, 
+        sh.seri_no, 
+        sh.miktar, 
+        sh.aciklama, 
+        sh.tarih, 
+        ak.alt_kategoriler_adi, 
+        k.tc_no AS sasi_no, 
+        kat.kategoriler_adi 
+    FROM stok_hareketleri sh 
+    LEFT JOIN stoklar s ON sh.seri_no = s.seri_no 
+    LEFT JOIN alt_kategoriler ak ON sh.alt_kategoriler_id = ak.id 
+    LEFT JOIN kategoriler kat ON sh.kategoriler_id = kat.id 
+    LEFT JOIN musteriler m ON sh.musteri_id = m.id 
+    LEFT JOIN kullanicilar k ON m.kullanici_id = k.id
+
+Time : 13:03:26
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`stok_hareketleri`, CONSTRAINT `stok_hareketleri_ibfk_2` FOREIGN KEY (`alt_kategoriler_id`) REFERENCES `alt_kategoriler` (`id`))
+Raw SQL : DELETE FROM alt_kategoriler WHERE id = :id
+
+Time : 13:02:07
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`stok_hareketleri`, CONSTRAINT `stok_hareketleri_ibfk_2` FOREIGN KEY (`alt_kategoriler_id`) REFERENCES `alt_kategoriler` (`id`))
+Raw SQL : DELETE FROM alt_kategoriler WHERE id = :id
+
+Time : 13:01:32
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`stok_hareketleri`, CONSTRAINT `stok_hareketleri_ibfk_2` FOREIGN KEY (`alt_kategoriler_id`) REFERENCES `alt_kategoriler` (`id`))
+Raw SQL : DELETE FROM alt_kategoriler WHERE id = :id
+
+Time : 12:59:37
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`stok_hareketleri`, CONSTRAINT `stok_hareketleri_ibfk_2` FOREIGN KEY (`alt_kategoriler_id`) REFERENCES `alt_kategoriler` (`id`))
+Raw SQL : DELETE FROM alt_kategoriler WHERE id = :id
+
+Time : 12:59:25
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`stok_hareketleri`, CONSTRAINT `stok_hareketleri_ibfk_2` FOREIGN KEY (`alt_kategoriler_id`) REFERENCES `alt_kategoriler` (`id`))
+Raw SQL : DELETE FROM alt_kategoriler WHERE id = :id
+
+Time : 12:59:21
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`stok_hareketleri`, CONSTRAINT `stok_hareketleri_ibfk_2` FOREIGN KEY (`alt_kategoriler_id`) REFERENCES `alt_kategoriler` (`id`))
+Raw SQL : DELETE FROM alt_kategoriler WHERE id = :id
+
+Time : 12:47:31
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`stoklar`, CONSTRAINT `fk_stoklar_alt_kategori` FOREIGN KEY (`alt_kategoriler_id`) REFERENCES `alt_kategoriler` (`id`))
+Raw SQL : DELETE FROM alt_kategoriler WHERE id = :id
+
+Time : 12:46:34
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`stoklar`, CONSTRAINT `fk_stoklar_alt_kategori` FOREIGN KEY (`alt_kategoriler_id`) REFERENCES `alt_kategoriler` (`id`))
+Raw SQL : DELETE FROM alt_kategoriler WHERE id = :id
+
+Time : 12:45:38
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`stoklar`, CONSTRAINT `fk_stoklar_alt_kategori` FOREIGN KEY (`alt_kategoriler_id`) REFERENCES `alt_kategoriler` (`id`))
+Raw SQL : DELETE FROM alt_kategoriler WHERE id = :id
+
+Time : 12:45:24
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`stoklar`, CONSTRAINT `fk_stoklar_alt_kategori` FOREIGN KEY (`alt_kategoriler_id`) REFERENCES `alt_kategoriler` (`id`))
+Raw SQL : DELETE FROM kategoriler WHERE id = :id
+
+Time : 12:44:36
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`stoklar`, CONSTRAINT `fk_stoklar_alt_kategori` FOREIGN KEY (`alt_kategoriler_id`) REFERENCES `alt_kategoriler` (`id`))
+Raw SQL : DELETE FROM alt_kategoriler WHERE id = :id
+
+Time : 12:44:18
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`stoklar`, CONSTRAINT `fk_stoklar_alt_kategori` FOREIGN KEY (`alt_kategoriler_id`) REFERENCES `alt_kategoriler` (`id`))
+Raw SQL : DELETE FROM alt_kategoriler WHERE id = :id
+
+Time : 12:44:18
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`stoklar`, CONSTRAINT `fk_stoklar_alt_kategori` FOREIGN KEY (`alt_kategoriler_id`) REFERENCES `alt_kategoriler` (`id`))
+Raw SQL : DELETE FROM alt_kategoriler WHERE id = :id
+
+Time : 12:44:18
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`stoklar`, CONSTRAINT `fk_stoklar_alt_kategori` FOREIGN KEY (`alt_kategoriler_id`) REFERENCES `alt_kategoriler` (`id`))
+Raw SQL : DELETE FROM alt_kategoriler WHERE id = :id
+
+Time : 12:44:18
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`stoklar`, CONSTRAINT `fk_stoklar_alt_kategori` FOREIGN KEY (`alt_kategoriler_id`) REFERENCES `alt_kategoriler` (`id`))
+Raw SQL : DELETE FROM alt_kategoriler WHERE id = :id
+
+Time : 12:44:18
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`stoklar`, CONSTRAINT `fk_stoklar_alt_kategori` FOREIGN KEY (`alt_kategoriler_id`) REFERENCES `alt_kategoriler` (`id`))
+Raw SQL : DELETE FROM alt_kategoriler WHERE id = :id
+
+Time : 12:44:17
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`stoklar`, CONSTRAINT `fk_stoklar_alt_kategori` FOREIGN KEY (`alt_kategoriler_id`) REFERENCES `alt_kategoriler` (`id`))
+Raw SQL : DELETE FROM alt_kategoriler WHERE id = :id
+
+Time : 12:44:17
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`stoklar`, CONSTRAINT `fk_stoklar_alt_kategori` FOREIGN KEY (`alt_kategoriler_id`) REFERENCES `alt_kategoriler` (`id`))
+Raw SQL : DELETE FROM alt_kategoriler WHERE id = :id
+
+Time : 12:44:17
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`stoklar`, CONSTRAINT `fk_stoklar_alt_kategori` FOREIGN KEY (`alt_kategoriler_id`) REFERENCES `alt_kategoriler` (`id`))
+Raw SQL : DELETE FROM alt_kategoriler WHERE id = :id
+
+Time : 12:44:17
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`stoklar`, CONSTRAINT `fk_stoklar_alt_kategori` FOREIGN KEY (`alt_kategoriler_id`) REFERENCES `alt_kategoriler` (`id`))
+Raw SQL : DELETE FROM alt_kategoriler WHERE id = :id
+
+Time : 12:44:15
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`stoklar`, CONSTRAINT `fk_stoklar_alt_kategori` FOREIGN KEY (`alt_kategoriler_id`) REFERENCES `alt_kategoriler` (`id`))
+Raw SQL : DELETE FROM alt_kategoriler WHERE id = :id
+
+Time : 12:14:04
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.koy' in 'SELECT'
+Raw SQL : 
+    SELECT 
+        k.*, 
+        a.ulke, a.sehir, a.ilce, a.mahalle, a.sokak, a.cadde, a.daire, a.koy
+    FROM kullanicilar k
+    INNER JOIN adresler a ON k.adres_id = a.id
+    WHERE k.id = :id
+
+
+Time : 12:12:11
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.koy' in 'SELECT'
+Raw SQL : 
+    SELECT 
+        k.*, 
+        a.ulke, a.sehir, a.ilce, a.mahalle, a.sokak, a.cadde, a.daire, a.koy
+    FROM kullanicilar k
+    INNER JOIN adresler a ON k.adres_id = a.id
+    WHERE k.id = :id
+
+
+Time : 12:11:59
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.koy' in 'SELECT'
+Raw SQL : 
+    SELECT 
+        k.*, 
+        a.ulke, a.sehir, a.ilce, a.mahalle, a.sokak, a.cadde, a.daire, a.koy
+    FROM kullanicilar k
+    INNER JOIN adresler a ON k.adres_id = a.id
+    WHERE k.id = :id
+

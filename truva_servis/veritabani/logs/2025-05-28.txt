@@ -1,0 +1,364 @@
+Time : 23:12:03
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'kategoriler_id' cannot be null
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, kategoriler_id, alt_kategoriler_id, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+    ) VALUES ( 
+        :seri_no, :kategoriler_id, :alt_kategoriler_id, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet 
+    )
+
+Time : 23:08:55
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kategori_id' in 'WHERE'
+Raw SQL : 
+        SELECT * FROM stoklar 
+        WHERE seri_no = :seri_no 
+        AND (kategori_id != :kategori_id OR alt_kategori_id != :alt_kategori_id OR marka != :marka)
+
+Time : 23:08:44
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kategori_id' in 'WHERE'
+Raw SQL : 
+        SELECT * FROM stoklar 
+        WHERE seri_no = :seri_no 
+        AND (kategori_id != :kategori_id OR alt_kategori_id != :alt_kategori_id OR marka != :marka)
+
+Time : 08:30:37
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'SELECT'
+Raw SQL : SELECT seri_no, stok_kategori, yedek_parca_ad, marka, SUM(adet) AS toplam_adet, birim_fiyat, kdv_orani, satis_fiyati 
+                     FROM stoklar 
+                     WHERE seri_no = :seri_no 
+                     GROUP BY seri_no, stok_kategori, yedek_parca_ad, marka, birim_fiyat, kdv_orani, satis_fiyati
+
+Time : 08:20:03
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT randevu_saat FROM randevular WHERE randevu_tarih = ?
+
+Time : 08:18:50
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT randevu_saat FROM randevular WHERE randevu_tarih = ?
+
+Time : 08:15:25
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT randevu_saat FROM randevular WHERE randevu_tarih = ?
+
+Time : 07:35:12
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : 
+    SELECT 
+        ak.*, 
+        k.ad AS musteri_ad,
+        k.soyad AS musteri_soyad,
+        k.telefon,
+        k.email,
+        t.marka,
+        t.model,
+        t.plaka
+    FROM ariza_kayitlari ak
+    INNER JOIN musteriler m ON ak.musteri_id = m.id
+    INNER JOIN kullanicilar k ON m.kullanici_id = k.id
+    INNER JOIN traktorler t ON ak.traktor_id = t.id
+    WHERE ak.id = ?
+
+
+Time : 07:33:26
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : 
+    SELECT 
+        ak.*, 
+        k.ad AS musteri_ad,
+        k.soyad AS musteri_soyad,
+        k.telefon,
+        k.email,
+        t.marka,
+        t.model,
+        t.plaka
+    FROM ariza_kayitlari ak
+    INNER JOIN musteriler m ON ak.musteri_id = m.id
+    INNER JOIN kullanicilar k ON m.kullanici_id = k.id
+    INNER JOIN traktorler t ON ak.traktor_id = t.id
+    WHERE ak.id = ?
+
+
+Time : 07:32:58
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : 
+    SELECT 
+        ak.*, 
+        k.ad AS musteri_ad,
+        k.soyad AS musteri_soyad,
+        k.telefon,
+        k.email,
+        t.marka,
+        t.model,
+        t.plaka
+    FROM ariza_kayitlari ak
+    INNER JOIN musteriler m ON ak.musteri_id = m.id
+    INNER JOIN kullanicilar k ON m.kullanici_id = k.id
+    INNER JOIN traktorler t ON ak.traktor_id = t.id
+    WHERE ak.id = ?
+
+
+Time : 07:32:57
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : 
+    SELECT 
+        ak.*, 
+        k.ad AS musteri_ad,
+        k.soyad AS musteri_soyad,
+        k.telefon,
+        k.email,
+        t.marka,
+        t.model,
+        t.plaka
+    FROM ariza_kayitlari ak
+    INNER JOIN musteriler m ON ak.musteri_id = m.id
+    INNER JOIN kullanicilar k ON m.kullanici_id = k.id
+    INNER JOIN traktorler t ON ak.traktor_id = t.id
+    WHERE ak.id = ?
+
+
+Time : 06:28:57
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'kategoriler_adi' cannot be null
+Raw SQL : INSERT INTO kategoriler ( 
+        kategoriler_adi  
+        ) VALUES ( 
+        :kategoriler_adi)
+
+Time : 06:21:34
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'kategoriler_id' cannot be null
+Raw SQL : INSERT INTO alt_kategoriler ( 
+        alt_kategoriler_adi, kategoriler_id 
+        ) VALUES ( 
+        :alt_kategoriler_adi, :kategoriler_id)
+
+Time : 06:19:27
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'alt_kategoriler_adi' cannot be null
+Raw SQL : INSERT INTO alt_kategoriler ( 
+        alt_kategoriler_adi, kategoriler_id 
+        ) VALUES ( 
+        :alt_kategoriler_adi, :kategoriler_id)
+
+Time : 06:16:49
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'kategoriler_adi' cannot be null
+Raw SQL : INSERT INTO kategoriler ( 
+        kategoriler_adi  
+        ) VALUES ( 
+        :kategoriler_adi)
+
+Time : 06:16:18
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'alt_kategoriler_adi' cannot be null
+Raw SQL : INSERT INTO alt_kategoriler ( 
+        alt_kategoriler_adi, kategoriler_id 
+        ) VALUES ( 
+        :alt_kategoriler_adi, :kategoriler_id)
+
+Time : 06:13:47
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'alt_kategoriler_adi' cannot be null
+Raw SQL : INSERT INTO alt_kategoriler ( 
+        alt_kategoriler_adi, kategoriler_id 
+        ) VALUES ( 
+        :alt_kategoriler_adi, :kategoriler_id)
+
+Time : 06:13:26
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'alt_kategoriler_adi' cannot be null
+Raw SQL : INSERT INTO alt_kategoriler ( 
+        alt_kategoriler_adi, kategoriler_id 
+        ) VALUES ( 
+        :alt_kategoriler_adi, :kategoriler_id)
+
+Time : 06:13:20
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'alt_kategoriler_adi' cannot be null
+Raw SQL : INSERT INTO alt_kategoriler ( 
+        alt_kategoriler_adi, kategoriler_id 
+        ) VALUES ( 
+        :alt_kategoriler_adi, :kategoriler_id)
+
+Time : 06:12:33
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'alt_kategoriler_adi' cannot be null
+Raw SQL : INSERT INTO alt_kategoriler ( 
+        alt_kategoriler_adi, kategoriler_id 
+        ) VALUES ( 
+        :alt_kategoriler_adi, :kategoriler_id)
+
+Time : 06:11:02
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'alt_kategoriler_adi' cannot be null
+Raw SQL : INSERT INTO alt_kategoriler ( 
+        alt_kategoriler_adi, kategoriler_id 
+        ) VALUES ( 
+        :alt_kategoriler_adi, :kategoriler_id)
+
+Time : 06:06:56
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'alt_kategoriler_adi' cannot be null
+Raw SQL : INSERT INTO alt_kategoriler ( 
+        alt_kategoriler_adi, kategoriler_id 
+        ) VALUES ( 
+        :alt_kategoriler_adi, :kategoriler_id)
+
+Time : 06:01:26
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'alt_kategoriler_adi' cannot be null
+Raw SQL : INSERT INTO alt_kategoriler ( 
+        alt_kategoriler_adi, kategoriler_id 
+        ) VALUES ( 
+        :alt_kategoriler_adi, :kategoriler_id)
+
+Time : 06:00:47
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'alt_kategoriler_adi' cannot be null
+Raw SQL : INSERT INTO alt_kategoriler ( 
+        alt_kategoriler_adi, kategoriler_id 
+        ) VALUES ( 
+        :alt_kategoriler_adi, :kategoriler_id)
+
+Time : 05:58:13
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'kategoriler_adi' cannot be null
+Raw SQL : INSERT INTO kategoriler ( 
+        kategoriler_adi  
+        ) VALUES ( 
+        :kategoriler_adi)
+
+Time : 05:55:33
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'alt_kategoriler_adi' cannot be null
+Raw SQL : INSERT INTO alt_kategoriler ( 
+        alt_kategoriler_adi, kategoriler_id 
+        ) VALUES ( 
+        :alt_kategoriler_adi, :kategoriler_id)
+
+Time : 05:55:09
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'alt_kategoriler_adi' cannot be null
+Raw SQL : INSERT INTO alt_kategoriler ( 
+        alt_kategoriler_adi, kategoriler_id 
+        ) VALUES ( 
+        :alt_kategoriler_adi, :kategoriler_id)
+
+Time : 04:30:07
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO alt_kategoriler ( 
+        alt_kategoriler_adi, kategoriler_id 
+        ) VALUES ( 
+        :alt_kategoriler_adi, :kategoriler_id)
+
+Time : 04:29:27
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4
+Raw SQL : INSERT INTO alt_kategoriler ( 
+        alt_kategoriler_adi, kategoriler_id 
+        ) VALUES ( 
+        :alt_kategoriler_adi, :kategoriler_id
+
+Time : 04:16:53
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4
+Raw SQL : INSERT INTO kategoriler ( 
+        kategoriler_adi  
+        ) VALUES ( 
+        :kategoriler_adi
+
+Time : 04:16:05
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4
+Raw SQL : INSERT INTO kategoriler ( 
+        kategoriler_adi  
+        ) VALUES ( 
+        :kategoriler_adi
+
+Time : 04:13:41
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4
+Raw SQL : INSERT INTO kategoriler ( 
+        kategoriler_adi  
+        ) VALUES ( 
+        :kategoriler_adi
+
+Time : 04:13:34
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4
+Raw SQL : INSERT INTO kategoriler ( 
+        kategoriler_adi  
+        ) VALUES ( 
+        :kategoriler_adi
+
+Time : 04:13:24
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4
+Raw SQL : INSERT INTO kategoriler ( 
+        kategoriler_adi  
+        ) VALUES ( 
+        :kategoriler_adi
+
+Time : 02:17:26
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.sasi_no' in 'SELECT'
+Raw SQL : SELECT  
+        k.ad, 
+        sh.seri_no, 
+        sh.miktar, 
+        sh.aciklama, 
+        sh.tarih, 
+        s.sasi_no, 
+        ak.alt_kategoriler_adi, 
+        k.tc_no AS sasi_no, 
+        kat.kategoriler_adi 
+    FROM stok_hareketleri sh 
+    LEFT JOIN stoklar s ON sh.seri_no = s.seri_no 
+    LEFT JOIN alt_kategoriler ak ON sh.alt_kategoriler_id = ak.id 
+    LEFT JOIN kategoriler kat ON sh.kategoriler_id = kat.id 
+    LEFT JOIN musteriler m ON sh.musteri_id = m.id 
+    LEFT JOIN kullanicilar k ON m.kullanici_id = k.id
+
+Time : 01:49:55
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kategoriler' in 'WHERE'
+Raw SQL : SELECT adet FROM stoklar WHERE seri_no = :seri_no AND kategoriler = :kategori_id AND alt_kategoriler = :alt_kategori_id AND marka = :marka ORDER BY id ASC
+
+Time : 01:46:54
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`stok_hareketleri`, CONSTRAINT `stok_hareketleri_ibfk_1` FOREIGN KEY (`kategoriler_id`) REFERENCES `kategoriler` (`id`))
+Raw SQL : INSERT INTO stok_hareketleri ( 
+                seri_no, marka, miktar, aciklama, kategoriler_id, alt_kategoriler_id, musteri_id 
+            ) VALUES ( 
+                :seri_no, :marka, :miktar, :aciklama, :kategoriler_id, :alt_kategoriler_id, :musteri_id 
+            )
+
+Time : 01:17:06
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`stok_hareketleri`, CONSTRAINT `stok_hareketleri_ibfk_1` FOREIGN KEY (`kategoriler_id`) REFERENCES `kategoriler` (`id`))
+Raw SQL : INSERT INTO stok_hareketleri ( 
+                seri_no, marka, miktar, aciklama, kategoriler_id, alt_kategoriler_id, musteri_id 
+            ) VALUES ( 
+                :seri_no, :marka, :miktar, :aciklama, :kategoriler_id, :alt_kategoriler_id, :musteri_id 
+            )
+
+Time : 01:05:51
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'musteri_id' in 'INSERT INTO'
+Raw SQL : INSERT INTO stok_hareketleri ( 
+                seri_no, marka, miktar, aciklama, kategoriler_id, alt_kategoriler_id, musteri_id 
+            ) VALUES ( 
+                :seri_no, :marka, :adet, :aciklama, :kategoriler_id, :alt_kategoriler_id, :musteri_id 
+            )
+
+Time : 01:04:10
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'adet' in 'INSERT INTO'
+Raw SQL : INSERT INTO stok_hareketleri ( 
+                seri_no, marka, adet, aciklama, kategoriler_id, alt_kategoriler_id, musteri_id 
+            ) VALUES ( 
+                :seri_no, :marka, :adet, :aciklama, :kategoriler_id, :alt_kategoriler_id, :musteri_id 
+            )
+
+Time : 01:02:44
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'adet' in 'INSERT INTO'
+Raw SQL : INSERT INTO stok_hareketleri ( 
+                seri_no, marka, adet, aciklama, kategoriler_id, alt_kategoriler_id, musteri_id 
+            ) VALUES ( 
+                :seri_no, :marka, :adet, :aciklama, :kategoriler_id, :alt_kategoriler_id, :musteri_id 
+            )
+
+Time : 00:37:06
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'adet' in 'INSERT INTO'
+Raw SQL : INSERT INTO stok_hareketleri ( 
+                seri_no, marka, adet, aciklama, kategoriler_id, alt_kategoriler_id, musteri_id 
+            ) VALUES ( 
+                :seri_no, :marka, :adet, :aciklama, :kategoriler_id, :alt_kategoriler_id, :musteri_id 
+            )
+
+Time : 00:31:29
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'adet' in 'INSERT INTO'
+Raw SQL : INSERT INTO stok_hareketleri ( 
+                seri_no, marka, adet, aciklama, kategori_id, alt_kategori_id, musteri_id 
+            ) VALUES ( 
+                :seri_no, :marka, :adet, :aciklama, :kategori_id, :alt_kategori_id, :musteri_id 
+            )
+
+Time : 00:22:21
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'adet' in 'INSERT INTO'
+Raw SQL : INSERT INTO stok_hareketleri ( 
+                seri_no, marka, adet, aciklama, kategori_id, alt_kategori_id, musteri_id 
+            ) VALUES ( 
+                :seri_no, :marka, :adet, :aciklama, :kategori_id, :alt_kategori_id, :musteri_id 
+            )

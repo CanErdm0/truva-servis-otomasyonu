@@ -1,0 +1,103 @@
+Time : 01:21:09
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'k.adresler_id' in 'on clause'
+Raw SQL : 
+             SELECT 
+                a.id, a.sehir, a.ilce, a.mahalle, a.cadde, a.sokak, a.daire, a.ulke
+             FROM 
+                kullanicilar k
+             INNER JOIN 
+                adresler a ON a.id = k.adresler_id
+             WHERE 
+                k.id = :id
+                 
+
+Time : 01:20:37
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'k.adresler_id' in 'on clause'
+Raw SQL : 
+             SELECT 
+                a.id, a.sehir, a.ilce, a.mahalle, a.cadde, a.sokak, a.daire, a.ulke
+             FROM 
+                kullanicilar k
+             INNER JOIN 
+                adresler a ON a.id = k.adresler_id
+             WHERE 
+                k.id = :id
+                 
+
+Time : 01:20:35
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'k.adresler_id' in 'on clause'
+Raw SQL : 
+             SELECT 
+                a.id, a.sehir, a.ilce, a.mahalle, a.cadde, a.sokak, a.daire, a.ulke
+             FROM 
+                kullanicilar k
+             INNER JOIN 
+                adresler a ON a.id = k.adresler_id
+             WHERE 
+                k.id = :id
+                 
+
+Time : 01:20:33
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'k.adresler_id' in 'on clause'
+Raw SQL : 
+             SELECT 
+                a.id, a.sehir, a.ilce, a.mahalle, a.cadde, a.sokak, a.daire, a.ulke
+             FROM 
+                kullanicilar k
+             INNER JOIN 
+                adresler a ON a.id = k.adresler_id
+             WHERE 
+                k.id = :id
+                 
+
+Time : 01:15:37
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'k.adresler_id' in 'on clause'
+Raw SQL : 
+             SELECT 
+                a.id, a.sehir, a.ilce, a.mahalle, a.cadde, a.sokak, a.daire, a.ulke
+             FROM 
+                kullanicilar k
+             INNER JOIN 
+                adresler a ON a.id = k.adresler_id
+             WHERE 
+                k.id = :id
+                 
+
+Time : 01:15:36
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'k.adresler_id' in 'on clause'
+Raw SQL : 
+             SELECT 
+                a.id, a.sehir, a.ilce, a.mahalle, a.cadde, a.sokak, a.daire, a.ulke
+             FROM 
+                kullanicilar k
+             INNER JOIN 
+                adresler a ON a.id = k.adresler_id
+             WHERE 
+                k.id = :id
+                 
+
+Time : 01:15:33
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'k.adresler_id' in 'on clause'
+Raw SQL : 
+             SELECT 
+                a.id, a.sehir, a.ilce, a.mahalle, a.cadde, a.sokak, a.daire, a.ulke
+             FROM 
+                kullanicilar k
+             INNER JOIN 
+                adresler a ON a.id = k.adresler_id
+             WHERE 
+                k.id = :id
+                 
+
+Time : 01:12:16
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'k.adresler_id' in 'on clause'
+Raw SQL : 
+             SELECT 
+                a.id, a.sehir, a.ilce, a.mahalle, a.cadde, a.sokak, a.daire, a.ulke
+             FROM 
+                kullanicilar k
+             INNER JOIN 
+                adresler a ON a.id = k.adresler_id
+             WHERE 
+                k.id = :id
+                 

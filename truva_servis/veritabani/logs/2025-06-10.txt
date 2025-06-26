@@ -1,0 +1,58 @@
+Time : 17:49:44
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.adres_id' in 'ON'
+Raw SQL : SELECT  
+        k.*,  
+        p.*,  
+        a.sehir, 
+        a.ilce, 
+        a.mahalle, 
+        a.cadde, 
+        a.sokak, 
+        a.daire, 
+        a.ulke 
+    FROM kullanicilar k 
+    LEFT JOIN personeller p ON k.id = p.kullanici_id 
+    LEFT JOIN adresler a ON p.adres_id = a.id 
+    WHERE k.rol = 'personel'
+
+Time : 17:12:40
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM tedarikciler t 
+    LEFT JOIN adresler a ON t.adres_id = a.id' at line 15
+Raw SQL : SELECT  
+        t.id, 
+        t.ad, 
+        t.telefon, 
+        t.email, 
+        t.web_adresi, 
+        t.tedarikci_kayit_tarihi, 
+        a.sehir, 
+        a.ilce, 
+        a.mahalle, 
+        a.cadde, 
+        a.sokak, 
+        a.daire, 
+        a.ulke, 
+    FROM tedarikciler t 
+    LEFT JOIN adresler a ON t.adres_id = a.id
+
+Time : 16:23:00
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.tarih' in 'ORDER BY'
+Raw SQL : SELECT  
+        r.*,  
+        k.ad AS musteri_ad, 
+        k.soyad AS musteri_soyad, 
+        k.telefon, 
+        k.email, 
+        t.marka, 
+        t.model, 
+        t.plaka, 
+        t.sasi_no, 
+        t.ithal_sasi_no, 
+        t.motor_no, 
+        t.garanti 
+    FROM randevular r 
+    INNER JOIN musteriler m ON r.musteri_id = m.id 
+    INNER JOIN kullanicilar k ON m.kullanici_id = k.id 
+    INNER JOIN traktorler t ON r.traktor_id = t.id 
+    WHERE r.durum = 'Onaylandı' 
+    ORDER BY r.tarih DESC

@@ -1,0 +1,225 @@
+Time : 15:05:29
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`randevular`, CONSTRAINT `randevular_ibfk_2` FOREIGN KEY (`traktor_id`) REFERENCES `traktorler` (`id`))
+Raw SQL : DELETE FROM traktorler WHERE id = :id
+
+Time : 15:04:11
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`randevular`, CONSTRAINT `randevular_ibfk_2` FOREIGN KEY (`traktor_id`) REFERENCES `traktorler` (`id`))
+Raw SQL : DELETE FROM traktorler WHERE id = :id
+
+Time : 15:01:01
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`randevular`, CONSTRAINT `randevular_ibfk_2` FOREIGN KEY (`traktor_id`) REFERENCES `traktorler` (`id`))
+Raw SQL : DELETE FROM traktorler WHERE id = :id
+
+Time : 14:09:15
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`randevular`, CONSTRAINT `randevular_ibfk_2` FOREIGN KEY (`traktor_id`) REFERENCES `traktorler` (`id`))
+Raw SQL : DELETE FROM traktorler WHERE id = :id
+
+Time : 14:09:04
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`randevular`, CONSTRAINT `randevular_ibfk_2` FOREIGN KEY (`traktor_id`) REFERENCES `traktorler` (`id`))
+Raw SQL : DELETE FROM traktorler WHERE id = :id
+
+Time : 14:08:40
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`randevular`, CONSTRAINT `randevular_ibfk_2` FOREIGN KEY (`traktor_id`) REFERENCES `traktorler` (`id`))
+Raw SQL : DELETE FROM traktorler WHERE id = :id
+
+Time : 14:08:25
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u79zh3u6lszo_truva_servis`.`randevular`, CONSTRAINT `randevular_ibfk_2` FOREIGN KEY (`traktor_id`) REFERENCES `traktorler` (`id`))
+Raw SQL : DELETE FROM traktorler WHERE id = :id
+
+Time : 03:59:07
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`truva_servis`.`stoklar`, CONSTRAINT `fk_tedarikci` FOREIGN KEY (`tedarikci_id`) REFERENCES `tedarikciler` (`id`) ON DELETE CASCADE)
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 03:59:06
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`truva_servis`.`stoklar`, CONSTRAINT `fk_tedarikci` FOREIGN KEY (`tedarikci_id`) REFERENCES `tedarikciler` (`id`) ON DELETE CASCADE)
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 03:59:06
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`truva_servis`.`stoklar`, CONSTRAINT `fk_tedarikci` FOREIGN KEY (`tedarikci_id`) REFERENCES `tedarikciler` (`id`) ON DELETE CASCADE)
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 03:59:06
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`truva_servis`.`stoklar`, CONSTRAINT `fk_tedarikci` FOREIGN KEY (`tedarikci_id`) REFERENCES `tedarikciler` (`id`) ON DELETE CASCADE)
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 03:59:05
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`truva_servis`.`stoklar`, CONSTRAINT `fk_tedarikci` FOREIGN KEY (`tedarikci_id`) REFERENCES `tedarikciler` (`id`) ON DELETE CASCADE)
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 03:59:05
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`truva_servis`.`stoklar`, CONSTRAINT `fk_tedarikci` FOREIGN KEY (`tedarikci_id`) REFERENCES `tedarikciler` (`id`) ON DELETE CASCADE)
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 03:59:05
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`truva_servis`.`stoklar`, CONSTRAINT `fk_tedarikci` FOREIGN KEY (`tedarikci_id`) REFERENCES `tedarikciler` (`id`) ON DELETE CASCADE)
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 03:59:04
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`truva_servis`.`stoklar`, CONSTRAINT `fk_tedarikci` FOREIGN KEY (`tedarikci_id`) REFERENCES `tedarikciler` (`id`) ON DELETE CASCADE)
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 03:57:58
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`truva_servis`.`stoklar`, CONSTRAINT `fk_tedarikci` FOREIGN KEY (`tedarikci_id`) REFERENCES `tedarikciler` (`id`) ON DELETE CASCADE)
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 03:57:58
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`truva_servis`.`stoklar`, CONSTRAINT `fk_tedarikci` FOREIGN KEY (`tedarikci_id`) REFERENCES `tedarikciler` (`id`) ON DELETE CASCADE)
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 03:57:55
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`truva_servis`.`stoklar`, CONSTRAINT `fk_tedarikci` FOREIGN KEY (`tedarikci_id`) REFERENCES `tedarikciler` (`id`) ON DELETE CASCADE)
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 03:57:45
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`truva_servis`.`stoklar`, CONSTRAINT `fk_tedarikci` FOREIGN KEY (`tedarikci_id`) REFERENCES `tedarikciler` (`id`) ON DELETE CASCADE)
+Raw SQL : INSERT INTO stoklar ( 
+        seri_no, stok_kategori, yedek_parca_ad, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+        ) VALUES ( 
+        :seri_no, :stok_kategori, :yedek_parca_ad, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet)
+
+Time : 02:00:17
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.garanti 
+    FROM randevular r 
+    INNER JOIN musteriler m ON r.musteri_id ...' at line 13
+Raw SQL : SELECT  
+        r.*,  
+        k.ad AS musteri_ad, 
+        k.soyad AS musteri_soyad, 
+        k.telefon, 
+        k.email, 
+        t.marka, 
+        t.model, 
+        t.plaka, 
+        t.sasi_no, 
+        t.ithal_sasi_no, 
+        t.motor_no 
+        t.garanti 
+    FROM randevular r 
+    INNER JOIN musteriler m ON r.musteri_id = m.id 
+    INNER JOIN kullanicilar k ON m.kullanici_id = k.id 
+    INNER JOIN traktorler t ON r.traktor_id = t.id
+
+Time : 01:55:21
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'truva_servis.randevuler' doesn't exist
+Raw SQL : SELECT  
+        r.*,  
+        k.ad AS musteri_ad, 
+        k.soyad AS musteri_soyad, 
+        k.telefon, 
+        k.email, 
+        t.marka, 
+        t.model, 
+        t.plaka, 
+        t.sasi_no, 
+        t.ithal_sasi_no, 
+        t.motor_no 
+    FROM randevuler r 
+    INNER JOIN musteriler m ON r.musteri_id = m.id 
+    INNER JOIN kullanicilar k ON m.kullanici_id = k.id 
+    INNER JOIN traktorler t ON r.traktor_id = t.id
+
+Time : 01:53:29
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'truva_servis.randevuler' doesn't exist
+Raw SQL : SELECT  
+        r.*,  
+        k.ad AS musteri_ad, 
+        k.soyad AS musteri_soyad, 
+        k.telefon, 
+        k.email, 
+        t.marka, 
+        t.model, 
+        t.plaka, 
+        t.sasi_no, 
+        t.ithal_sasi_no 
+    FROM randevuler r 
+    INNER JOIN musteriler m ON r.musteri_id = m.id 
+    INNER JOIN kullanicilar k ON m.kullanici_id = k.id 
+    INNER JOIN traktorler t ON ak.traktor_id = t.id
+
+Time : 01:53:11
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'truva_servis.randevuler' doesn't exist
+Raw SQL : SELECT  
+        r.*,  
+        k.ad AS musteri_ad, 
+        k.soyad AS musteri_soyad, 
+        k.telefon, 
+        k.email, 
+        t.marka, 
+        t.model, 
+        t.plaka, 
+        t.sasi_no, 
+        t.ithal_sasi_no 
+    FROM randevuler r 
+    INNER JOIN musteriler m ON r.musteri_id = m.id 
+    INNER JOIN kullanicilar k ON m.kullanici_id = k.id 
+    INNER JOIN traktorler t ON ak.traktor_id = t.id
+
+Time : 01:22:22
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.ithal_sasi_no 
+    FROM ariza_kayitlari ak 
+    INNER JOIN musteriler m ON a...' at line 11
+Raw SQL : SELECT  
+        ak.*,  
+        k.ad AS musteri_ad, 
+        k.soyad AS musteri_soyad, 
+        k.telefon, 
+        k.email, 
+        t.marka, 
+        t.model, 
+        t.plaka, 
+        t.sasi_no 
+        t.ithal_sasi_no 
+    FROM ariza_kayitlari ak 
+    INNER JOIN musteriler m ON ak.musteri_id = m.id 
+    INNER JOIN kullanicilar k ON m.kullanici_id = k.id 
+    INNER JOIN traktorler t ON ak.traktor_id = t.id
+
+Time : 01:19:34
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.ad' in 'field list'
+Raw SQL : SELECT  
+        ak.*,  
+        m.ad AS musteri_ad, 
+        m.soyad AS musteri_soyad, 
+        m.telefon, 
+        m.email, 
+        t.marka, 
+        t.model, 
+        t.plaka, 
+        t.sasi_no, 
+        t.ithal_sasi_no 
+    FROM ariza_kayitlari ak 
+    INNER JOIN musteriler m ON ak.musteri_id = m.id 
+    INNER JOIN traktorler t ON ak.traktor_id = t.id

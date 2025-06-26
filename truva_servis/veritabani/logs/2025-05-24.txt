@@ -1,0 +1,414 @@
+Time : 23:55:41
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = ?' at line 4
+Raw SQL : UPDATE stoklar SET  
+                    birim_fiyat = :birim_fiyat_guncelle,  
+                     
+                    WHERE id = :id
+
+Time : 22:45:34
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'SELECT'
+Raw SQL : SELECT seri_no, stok_kategori, yedek_parca_ad, marka, SUM(adet) AS toplam_adet, birim_fiyat, kdv_orani, satis_fiyati 
+                     FROM stoklar 
+                     WHERE seri_no = :seri_no 
+                     GROUP BY seri_no, stok_kategori, yedek_parca_ad, marka, birim_fiyat, kdv_orani, satis_fiyati
+
+Time : 22:43:51
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'SELECT'
+Raw SQL : SELECT seri_no, stok_kategori, yedek_parca_ad, marka, SUM(adet) AS toplam_adet, birim_fiyat, kdv_orani, satis_fiyati 
+                     FROM stoklar 
+                     WHERE seri_no = :seri_no 
+                     GROUP BY seri_no, stok_kategori, yedek_parca_ad, marka, birim_fiyat, kdv_orani, satis_fiyati
+
+Time : 22:39:06
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'WHERE'
+Raw SQL : 
+            SELECT * FROM stoklar 
+            WHERE seri_no = :seri_no 
+            AND (stok_kategori != :stok_kategori OR yedek_parca_ad != :yedek_parca_ad OR marka != :marka)
+
+Time : 22:39:03
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'WHERE'
+Raw SQL : 
+            SELECT * FROM stoklar 
+            WHERE seri_no = :seri_no 
+            AND (stok_kategori != :stok_kategori OR yedek_parca_ad != :yedek_parca_ad OR marka != :marka)
+
+Time : 22:38:56
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'WHERE'
+Raw SQL : 
+            SELECT * FROM stoklar 
+            WHERE seri_no = :seri_no 
+            AND (stok_kategori != :stok_kategori OR yedek_parca_ad != :yedek_parca_ad OR marka != :marka)
+
+Time : 22:38:52
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'WHERE'
+Raw SQL : 
+            SELECT * FROM stoklar 
+            WHERE seri_no = :seri_no 
+            AND (stok_kategori != :stok_kategori OR yedek_parca_ad != :yedek_parca_ad OR marka != :marka)
+
+Time : 18:00:00
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kategoriler.adi' in 'SELECT'
+Raw SQL : SELECT  
+        stoklar.seri_no, 
+        stoklar.kategoriler_id, 
+        stoklar.alt_kategoriler_id, 
+        stoklar.marka, 
+        stoklar.adet, 
+        stoklar.kritik_seviye, 
+        stoklar.alis_tarihi, 
+        stoklar.garanti_suresi, 
+        stoklar.birim_fiyat, 
+        stoklar.satis_fiyati, 
+        stoklar.kdvDurumu, 
+        stoklar.kdv_orani, 
+        stoklar.olusturulma_tarihi, 
+        stoklar.guncellenme_tarihi, 
+        kategoriler.adi AS kategori_ad, 
+        alt_kategoriler.adi AS alt_kategori_ad, 
+        tedarikciler.ad AS tedarikci_ad, 
+        ( 
+            SELECT SUM(s2.adet) 
+            FROM stoklar s2 
+            WHERE  
+                s2.seri_no = stoklar.seri_no AND 
+                s2.kategoriler_id = stoklar.kategoriler_id AND 
+                s2.alt_kategoriler_id = stoklar.alt_kategoriler_id AND 
+                s2.marka = stoklar.marka 
+        ) AS toplam_adet, 
+ 
+        ( 
+            SELECT MAX(s3.kritik_seviye) 
+            FROM stoklar s3 
+            WHERE  
+                s3.seri_no = stoklar.seri_no AND 
+                s3.kategoriler_id = stoklar.kategoriler_id AND 
+                s3.alt_kategoriler_id = stoklar.alt_kategoriler_id AND 
+                s3.marka = stoklar.marka 
+        ) AS ortak_kritik_seviye 
+ 
+    FROM stoklar 
+    INNER JOIN tedarikciler ON stoklar.tedarikci_id = tedarikciler.id 
+    INNER JOIN kategoriler ON stoklar.kategoriler_id = kategoriler.id 
+    INNER JOIN alt_kategoriler ON stoklar.alt_kategoriler_id = alt_kategoriler.id 
+    ORDER BY stoklar.olusturulma_tarihi DESC
+
+Time : 17:58:00
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kategoriler.ad' in 'SELECT'
+Raw SQL : SELECT  
+        stoklar.seri_no, 
+        stoklar.kategoriler_id, 
+        stoklar.alt_kategoriler_id, 
+        stoklar.marka, 
+        stoklar.adet, 
+        stoklar.kritik_seviye, 
+        stoklar.alis_tarihi, 
+        stoklar.garanti_suresi, 
+        stoklar.birim_fiyat, 
+        stoklar.satis_fiyati, 
+        stoklar.kdvDurumu, 
+        stoklar.kdv_orani, 
+        stoklar.olusturulma_tarihi, 
+        stoklar.guncellenme_tarihi, 
+        kategoriler.ad AS kategori_ad, 
+        alt_kategoriler.ad AS alt_kategori_ad, 
+        tedarikciler.ad AS tedarikci_ad, 
+        ( 
+            SELECT SUM(s2.adet) 
+            FROM stoklar s2 
+            WHERE  
+                s2.seri_no = stoklar.seri_no AND 
+                s2.kategoriler_id = stoklar.kategoriler_id AND 
+                s2.alt_kategoriler_id = stoklar.alt_kategoriler_id AND 
+                s2.marka = stoklar.marka 
+        ) AS toplam_adet, 
+ 
+        ( 
+            SELECT MAX(s3.kritik_seviye) 
+            FROM stoklar s3 
+            WHERE  
+                s3.seri_no = stoklar.seri_no AND 
+                s3.kategoriler_id = stoklar.kategoriler_id AND 
+                s3.alt_kategoriler_id = stoklar.alt_kategoriler_id AND 
+                s3.marka = stoklar.marka 
+        ) AS ortak_kritik_seviye 
+ 
+    FROM stoklar 
+    INNER JOIN tedarikciler ON stoklar.tedarikci_id = tedarikciler.id 
+    INNER JOIN kategoriler ON stoklar.kategoriler_id = kategoriler.id 
+    INNER JOIN alt_kategoriler ON stoklar.alt_kategoriler_id = alt_kategoriler.id 
+    ORDER BY stoklar.olusturulma_tarihi DESC
+
+Time : 17:53:01
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stoklar.kategori_id' in 'SELECT'
+Raw SQL : SELECT  
+        stoklar.seri_no, 
+        stoklar.kategori_id, 
+        stoklar.alt_kategoriler_id, 
+        stoklar.marka, 
+        stoklar.adet, 
+        stoklar.kritik_seviye, 
+        stoklar.alis_tarihi, 
+        stoklar.garanti_suresi, 
+        stoklar.birim_fiyat, 
+        stoklar.satis_fiyati, 
+        stoklar.kdvDurumu, 
+        stoklar.kdv_orani, 
+        stoklar.olusturulma_tarihi, 
+        stoklar.guncellenme_tarihi, 
+        tedarikciler.ad AS tedarikci_ad, 
+ 
+        ( 
+            SELECT SUM(s2.adet) 
+            FROM stoklar s2 
+            WHERE  
+                s2.seri_no = stoklar.seri_no AND 
+                s2.kategori_id = stoklar.kategori_id AND 
+                s2.alt_kategoriler_id = stoklar.alt_kategoriler_id AND 
+                s2.marka = stoklar.marka 
+        ) AS toplam_adet, 
+ 
+        ( 
+            SELECT MAX(s3.kritik_seviye) 
+            FROM stoklar s3 
+            WHERE  
+                s3.seri_no = stoklar.seri_no AND 
+                s3.kategori_id = stoklar.kategori_id AND 
+                s3.alt_kategoriler_id = stoklar.alt_kategoriler_id AND 
+                s3.marka = stoklar.marka 
+        ) AS ortak_kritik_seviye 
+ 
+    FROM stoklar 
+    INNER JOIN tedarikciler ON stoklar.tedarikci_id = tedarikciler.id 
+    INNER JOIN kategoriler ON stoklar.kategori_id = kategoriler.id 
+    INNER JOIN alt_kategoriler ON stoklar.alt_kategoriler_id = alt_kategoriler.id 
+    ORDER BY stoklar.olusturulma_tarihi DESC
+
+Time : 17:50:09
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stoklar.alt_kategoriler_id' in 'SELECT'
+Raw SQL : SELECT  
+        stoklar.seri_no, 
+        stoklar.kategori_id, 
+        stoklar.alt_kategoriler_id, 
+        stoklar.marka, 
+        stoklar.adet, 
+        stoklar.kritik_seviye, 
+        stoklar.alis_tarihi, 
+        stoklar.garanti_suresi, 
+        stoklar.birim_fiyat, 
+        stoklar.satis_fiyati, 
+        stoklar.kdvDurumu, 
+        stoklar.kdv_orani, 
+        stoklar.olusturulma_tarihi, 
+        stoklar.guncellenme_tarihi, 
+        tedarikciler.ad AS tedarikci_ad, 
+ 
+        ( 
+            SELECT SUM(s2.adet) 
+            FROM stoklar s2 
+            WHERE  
+                s2.seri_no = stoklar.seri_no AND 
+                s2.kategori_id = stoklar.kategori_id AND 
+                s2.alt_kategoriler_id = stoklar.alt_kategoriler_id AND 
+                s2.marka = stoklar.marka 
+        ) AS toplam_adet, 
+ 
+        ( 
+            SELECT MAX(s3.kritik_seviye) 
+            FROM stoklar s3 
+            WHERE  
+                s3.seri_no = stoklar.seri_no AND 
+                s3.kategori_id = stoklar.kategori_id AND 
+                s3.alt_kategoriler_id = stoklar.alt_kategoriler_id AND 
+                s3.marka = stoklar.marka 
+        ) AS ortak_kritik_seviye 
+ 
+    FROM stoklar 
+    INNER JOIN tedarikciler ON stoklar.tedarikci_id = tedarikciler.id 
+    INNER JOIN kategoriler ON stoklar.kategori_id = kategoriler.id 
+    INNER JOIN alt_kategoriler ON stoklar.alt_kategoriler_id = alt_kategoriler.id 
+    ORDER BY stoklar.olusturulma_tarihi DESC
+
+Time : 16:58:32
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 's2.stok_kategori' in 'WHERE'
+Raw SQL : SELECT  
+        stoklar.seri_no, 
+        stoklar.kategori_id, 
+        stoklar.alt_kategori_id, 
+        stoklar.marka, 
+        stoklar.adet, 
+        stoklar.kritik_seviye, 
+        stoklar.alis_tarihi, 
+        stoklar.garanti_suresi, 
+        stoklar.birim_fiyat, 
+        stoklar.satis_fiyati, 
+        stoklar.kdvDurumu, 
+        stoklar.kdv_orani, 
+        stoklar.olusturulma_tarihi, 
+        stoklar.guncellenme_tarihi, 
+        tedarikciler.ad AS tedarikci_ad, 
+ 
+        ( 
+            SELECT SUM(s2.adet) 
+            FROM stoklar s2 
+            WHERE  
+                s2.seri_no = stoklar.seri_no AND 
+                s2.stok_kategori = stoklar.stok_kategori AND 
+                s2.yedek_parca_ad = stoklar.yedek_parca_ad AND 
+                s2.marka = stoklar.marka 
+        ) AS toplam_adet, 
+ 
+        ( 
+            SELECT MAX(s3.kritik_seviye) 
+            FROM stoklar s3 
+            WHERE  
+                s3.seri_no = stoklar.seri_no AND 
+                s3.stok_kategori = stoklar.stok_kategori AND 
+                s3.yedek_parca_ad = stoklar.yedek_parca_ad AND 
+                s3.marka = stoklar.marka 
+        ) AS ortak_kritik_seviye 
+ 
+    FROM stoklar 
+    INNER JOIN tedarikciler ON stoklar.tedarikci_id = tedarikciler.id 
+    ORDER BY stoklar.olusturulma_tarihi DESC
+
+Time : 16:58:07
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stoklar.stok_kategori' in 'SELECT'
+Raw SQL : SELECT  
+        stoklar.seri_no, 
+        stoklar.stok_kategori, 
+        stoklar.yedek_parca_ad, 
+        stoklar.marka, 
+        stoklar.adet, 
+        stoklar.kritik_seviye, 
+        stoklar.alis_tarihi, 
+        stoklar.garanti_suresi, 
+        stoklar.birim_fiyat, 
+        stoklar.satis_fiyati, 
+        stoklar.kdvDurumu, 
+        stoklar.kdv_orani, 
+        stoklar.olusturulma_tarihi, 
+        stoklar.guncellenme_tarihi, 
+        tedarikciler.ad AS tedarikci_ad, 
+ 
+        ( 
+            SELECT SUM(s2.adet) 
+            FROM stoklar s2 
+            WHERE  
+                s2.seri_no = stoklar.seri_no AND 
+                s2.stok_kategori = stoklar.stok_kategori AND 
+                s2.yedek_parca_ad = stoklar.yedek_parca_ad AND 
+                s2.marka = stoklar.marka 
+        ) AS toplam_adet, 
+ 
+        ( 
+            SELECT MAX(s3.kritik_seviye) 
+            FROM stoklar s3 
+            WHERE  
+                s3.seri_no = stoklar.seri_no AND 
+                s3.stok_kategori = stoklar.stok_kategori AND 
+                s3.yedek_parca_ad = stoklar.yedek_parca_ad AND 
+                s3.marka = stoklar.marka 
+        ) AS ortak_kritik_seviye 
+ 
+    FROM stoklar 
+    INNER JOIN tedarikciler ON stoklar.tedarikci_id = tedarikciler.id 
+    ORDER BY stoklar.olusturulma_tarihi DESC
+
+Time : 15:32:45
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stoklar.stok_kategori' in 'SELECT'
+Raw SQL : SELECT  
+        stoklar.seri_no, 
+        stoklar.stok_kategori, 
+        stoklar.yedek_parca_ad, 
+        stoklar.marka, 
+        stoklar.adet, 
+        stoklar.kritik_seviye, 
+        stoklar.alis_tarihi, 
+        stoklar.garanti_suresi, 
+        stoklar.birim_fiyat, 
+        stoklar.satis_fiyati, 
+        stoklar.kdvDurumu, 
+        stoklar.kdv_orani, 
+        stoklar.olusturulma_tarihi, 
+        stoklar.guncellenme_tarihi, 
+        tedarikciler.ad AS tedarikci_ad, 
+ 
+        ( 
+            SELECT SUM(s2.adet) 
+            FROM stoklar s2 
+            WHERE  
+                s2.seri_no = stoklar.seri_no AND 
+                s2.stok_kategori = stoklar.stok_kategori AND 
+                s2.yedek_parca_ad = stoklar.yedek_parca_ad AND 
+                s2.marka = stoklar.marka 
+        ) AS toplam_adet, 
+ 
+        ( 
+            SELECT MAX(s3.kritik_seviye) 
+            FROM stoklar s3 
+            WHERE  
+                s3.seri_no = stoklar.seri_no AND 
+                s3.stok_kategori = stoklar.stok_kategori AND 
+                s3.yedek_parca_ad = stoklar.yedek_parca_ad AND 
+                s3.marka = stoklar.marka 
+        ) AS ortak_kritik_seviye 
+ 
+    FROM stoklar 
+    INNER JOIN tedarikciler ON stoklar.tedarikci_id = tedarikciler.id 
+    ORDER BY stoklar.olusturulma_tarihi DESC
+
+Time : 15:28:29
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stoklar.stok_kategori' in 'SELECT'
+Raw SQL : SELECT  
+        stoklar.seri_no, 
+        stoklar.stok_kategori, 
+        stoklar.yedek_parca_ad, 
+        stoklar.marka, 
+        stoklar.adet, 
+        stoklar.kritik_seviye, 
+        stoklar.alis_tarihi, 
+        stoklar.garanti_suresi, 
+        stoklar.birim_fiyat, 
+        stoklar.satis_fiyati, 
+        stoklar.kdvDurumu, 
+        stoklar.kdv_orani, 
+        stoklar.olusturulma_tarihi, 
+        stoklar.guncellenme_tarihi, 
+        tedarikciler.ad AS tedarikci_ad, 
+ 
+        ( 
+            SELECT SUM(s2.adet) 
+            FROM stoklar s2 
+            WHERE  
+                s2.seri_no = stoklar.seri_no AND 
+                s2.stok_kategori = stoklar.stok_kategori AND 
+                s2.yedek_parca_ad = stoklar.yedek_parca_ad AND 
+                s2.marka = stoklar.marka 
+        ) AS toplam_adet, 
+ 
+        ( 
+            SELECT MAX(s3.kritik_seviye) 
+            FROM stoklar s3 
+            WHERE  
+                s3.seri_no = stoklar.seri_no AND 
+                s3.stok_kategori = stoklar.stok_kategori AND 
+                s3.yedek_parca_ad = stoklar.yedek_parca_ad AND 
+                s3.marka = stoklar.marka 
+        ) AS ortak_kritik_seviye 
+ 
+    FROM stoklar 
+    INNER JOIN tedarikciler ON stoklar.tedarikci_id = tedarikciler.id 
+    ORDER BY stoklar.olusturulma_tarihi DESC
+
+Time : 15:04:00
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM stoklar WHERE seri_no = :seri_no
+
+Time : 15:01:55
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM stoklar WHERE seri_no = :seri_no
+
+Time : 14:57:30
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM stoklar WHERE seri_no = ?

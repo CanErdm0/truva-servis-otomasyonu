@@ -1,0 +1,2 @@
+Time : 23:38:00
+SQLSTATE[HY000] [2002] Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı

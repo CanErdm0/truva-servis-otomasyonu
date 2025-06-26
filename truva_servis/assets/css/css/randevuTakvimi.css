@@ -1,0 +1,68 @@
+/* Genel body ayarları */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Yazı tipi */
+    background-color: #f4f6f9; /* Açık gri arka plan */
+    margin: 0; /* Sayfanın kenar boşluğunu kaldırır */
+    padding: 0; /* Sayfanın iç boşluğunu kaldırır */
+}
+
+/* Takvimi saran dış kutu */
+.calendar-wrapper {
+    max-width: 1000px; /* Maksimum genişlik */
+    margin: 40px auto; /* Yukarıdan 40px boşluk, ortalanmış yapı */
+    padding: 20px; /* İç boşluk */
+    background: white; /* Beyaz zemin */
+    border-radius: 12px; /* Köşeleri yumuşatır */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Hafif gölge ile derinlik verir */
+}
+
+/* Takvim alanının kendisi */
+#calendar {
+    max-width: 100%; /* Genişliği sınırlamadan %100 yap */
+}
+
+/* Takvim başlığındaki ay/yıl başlığı */
+.fc-toolbar-title {
+    font-size: 1.5rem; /* Başlık boyutu */
+    font-weight: bold; /* Kalın yazı */
+    color: #333; /* Koyu gri renk */
+}
+
+/* Takvimdeki önceki/sonraki ay gibi butonlar */
+.fc-button {
+    background-color: #007bff; /* Mavi arka plan */
+    border-color: #007bff; /* Mavi kenar */
+    color: white; /* Beyaz yazı */
+    padding: 5px 10px; /* İç boşluk */
+    border-radius: 6px; /* Yuvarlak kenarlar */
+    font-size: 0.85rem; /* Yazı boyutu */
+}
+
+/* Butonların üzerine gelince olan efekt */
+.fc-button:hover {
+    background-color: #0056b3; /* Daha koyu mavi */
+    border-color: #004085; /* Daha da koyu kenar */
+}
+
+/* Takvimdeki etkinlik kutularının görünümü */
+.fc-daygrid-event {
+    background-color: #28a745 !important; /* Yeşil arka plan (önemli olarak geçerli kılınmış) */
+    border: none; /* Kenarlık yok */
+    font-size: 0.9rem; /* Yazı boyutu */
+    padding: 2px 4px; /* Etkinlik kutusunun iç boşluğu */
+    border-radius: 4px; /* Köşeleri yumuşatır */
+}
+
+/* Etkinlik kutularının üzerine gelindiğinde efekt */
+.fc-daygrid-event:hover {
+    filter: brightness(1.1); /* Biraz daha parlak görünüm */
+    cursor: pointer; /* İmleç el işareti olur */
+}
+
+/* Küçük ekranlar için responsive ayarlar */
+@media (max-width: 768px) {
+    .calendar-wrapper {
+        margin: 20px 10px; /* Kenar boşlukları daralır */
+        padding: 10px; /* İç boşluk azaltılır */
+    }
+}

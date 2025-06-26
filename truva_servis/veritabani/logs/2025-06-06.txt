@@ -1,0 +1,91 @@
+Time : 15:37:46
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO stoklar ( 
+            seri_no, kategoriler_id, alt_kategoriler_id, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+            ) VALUES ( 
+                seri_no, :kategoriler_id, :alt_kategoriler_id, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet 
+            )
+
+Time : 15:24:07
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO stoklar ( 
+            seri_no, kategoriler_id, alt_kategoriler_id, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+            ) VALUES ( 
+                seri_no, :kategoriler_id, :alt_kategoriler_id, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet 
+            )
+
+Time : 15:23:13
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO stoklar ( 
+            seri_no, kategoriler_id, alt_kategoriler_id, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+            ) VALUES ( 
+                seri_no, :kategoriler_id, :alt_kategoriler_id, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet 
+            )
+
+Time : 15:22:26
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO stoklar ( 
+            seri_no, kategoriler_id, alt_kategoriler_id, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+            ) VALUES ( 
+                seri_no, :kategoriler_id, :alt_kategoriler_id, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet 
+            )
+
+Time : 15:22:26
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO stoklar ( 
+            seri_no, kategoriler_id, alt_kategoriler_id, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+            ) VALUES ( 
+                seri_no, :kategoriler_id, :alt_kategoriler_id, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet 
+            )
+
+Time : 15:22:25
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO stoklar ( 
+            seri_no, kategoriler_id, alt_kategoriler_id, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+            ) VALUES ( 
+                seri_no, :kategoriler_id, :alt_kategoriler_id, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet 
+            )
+
+Time : 15:22:18
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO stoklar ( 
+            seri_no, kategoriler_id, alt_kategoriler_id, marka, tedarikci_id, kritik_seviye, alis_tarihi, garanti_suresi, adet, birim_fiyat, kdvDurumu, kdv_orani, satin_alinan_adet 
+            ) VALUES ( 
+                seri_no, :kategoriler_id, :alt_kategoriler_id, :marka, :tedarikci_id, :kritik_seviye, :alis_tarihi, :garanti_suresi, :adet, :birim_fiyat, :kdvDurumu, :kdv_orani, :satin_alinan_adet 
+            )
+
+Time : 12:42:21
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT * FROM kategoriler WHERE kategoriler_adi = :kategoriler_adi
+
+Time : 12:42:13
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT * FROM kategoriler WHERE kategoriler_adi = :kategoriler_adi
+
+Time : 12:42:13
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT * FROM kategoriler WHERE kategoriler_adi = :kategoriler_adi
+
+Time : 12:42:13
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT * FROM kategoriler WHERE kategoriler_adi = :kategoriler_adi
+
+Time : 12:42:13
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT * FROM kategoriler WHERE kategoriler_adi = :kategoriler_adi
+
+Time : 12:42:13
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT * FROM kategoriler WHERE kategoriler_adi = :kategoriler_adi
+
+Time : 12:42:12
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT * FROM kategoriler WHERE kategoriler_adi = :kategoriler_adi
+
+Time : 12:42:12
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT * FROM kategoriler WHERE kategoriler_adi = :kategoriler_adi
+
+Time : 12:42:03
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT * FROM kategoriler WHERE kategoriler_adi = :kategoriler_adi

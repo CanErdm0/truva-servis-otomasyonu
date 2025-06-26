@@ -1,0 +1,117 @@
+Time : 19:37:23
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'k.adresler_id' in 'on clause'
+Raw SQL : 
+             SELECT 
+                a.id, a.sehir, a.ilce, a.mahalle, a.cadde, a.sokak, a.daire, a.ulke, a.koy
+             FROM 
+                kullanicilar k
+             INNER JOIN 
+                adresler a ON a.id = k.adresler_id
+             WHERE 
+                k.id = :id
+                 
+
+Time : 19:37:03
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'k.adresler_id' in 'on clause'
+Raw SQL : 
+             SELECT 
+                a.id, a.sehir, a.ilce, a.mahalle, a.cadde, a.sokak, a.daire, a.ulke, a.koy
+             FROM 
+                kullanicilar k
+             INNER JOIN 
+                adresler a ON a.id = k.adresler_id
+             WHERE 
+                k.id = :id
+                 
+
+Time : 19:37:02
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'k.adresler_id' in 'on clause'
+Raw SQL : 
+             SELECT 
+                a.id, a.sehir, a.ilce, a.mahalle, a.cadde, a.sokak, a.daire, a.ulke, a.koy
+             FROM 
+                kullanicilar k
+             INNER JOIN 
+                adresler a ON a.id = k.adresler_id
+             WHERE 
+                k.id = :id
+                 
+
+Time : 19:36:37
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'k.adresler_id' in 'on clause'
+Raw SQL : 
+             SELECT 
+                a.id, a.sehir, a.ilce, a.mahalle, a.cadde, a.sokak, a.daire, a.ulke, a.koy
+             FROM 
+                kullanicilar k
+             INNER JOIN 
+                adresler a ON a.id = k.adresler_id
+             WHERE 
+                k.id = :id
+                 
+
+Time : 19:36:37
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'k.adresler_id' in 'on clause'
+Raw SQL : 
+             SELECT 
+                a.id, a.sehir, a.ilce, a.mahalle, a.cadde, a.sokak, a.daire, a.ulke, a.koy
+             FROM 
+                kullanicilar k
+             INNER JOIN 
+                adresler a ON a.id = k.adresler_id
+             WHERE 
+                k.id = :id
+                 
+
+Time : 17:24:16
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.randevu_tarihi' in 'field list'
+Raw SQL : SELECT  
+    r.id AS randevu_id, 
+    r.sorun_tanimi, 
+    r.randevu_tarihi, 
+    r.randevu_saati, 
+    r.durum, 
+    t.id AS traktor_id, 
+    t.marka, 
+    t.plaka 
+FROM randevular r 
+INNER JOIN traktorler t ON r.traktor_id = t.id 
+WHERE r.musteri_id = :musteri_id
+
+Time : 16:40:16
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'randevu_saati' in 'field list'
+Raw SQL : INSERT INTO randevular ( 
+    traktor_id, sorun_tanimi, randevu_tarih, randevu_saati, musteri_id, durum 
+) VALUES ( 
+    :traktor_id, :sorun_tanimi, :randevu_tarih, :randevu_saati, :musteri_id, :durum 
+)
+
+Time : 16:39:57
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'randevu_saati' in 'field list'
+Raw SQL : INSERT INTO randevular ( 
+    traktor_id, sorun_tanimi, randevu_tarih, randevu_saati, musteri_id, durum 
+) VALUES ( 
+    :traktor_id, :sorun_tanimi, :randevu_tarih, :randevu_saati, :musteri_id, :durum 
+)
+
+Time : 16:39:56
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'randevu_saati' in 'field list'
+Raw SQL : INSERT INTO randevular ( 
+    traktor_id, sorun_tanimi, randevu_tarih, randevu_saati, musteri_id, durum 
+) VALUES ( 
+    :traktor_id, :sorun_tanimi, :randevu_tarih, :randevu_saati, :musteri_id, :durum 
+)
+
+Time : 12:43:50
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ithal_sasi_no' in 'field list'
+Raw SQL : INSERT INTO traktorler ( 
+        musteri_id, marka, model, model_yili, plaka, sasi_no, ithal_sasi_no, motor_no, garanti 
+        ) VALUES ( 
+        :musteri_id, :marka, :model, :model_yili, :plaka, :sasi_no, :ithal_sasi_no, :motor_no, :garanti)
+
+Time : 12:42:26
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ithal_sasi_no' in 'field list'
+Raw SQL : INSERT INTO traktorler ( 
+        musteri_id, marka, model, model_yili, plaka, sasi_no, ithal_sasi_no, motor_no, garanti 
+        ) VALUES ( 
+        :musteri_id, :marka, :model, :model_yili, :plaka, :sasi_no, :ithal_sasi_no, :motor_no, :garanti)

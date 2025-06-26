@@ -1,0 +1,65 @@
+Time : 21:49:08
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ise_baslama' in 'field list'
+Raw SQL : INSERT INTO personeller ( 
+        kullanici_id, ise_baslama 
+        ) VALUES ( 
+        :kullanici_id, :ise_baslama)
+
+Time : 21:42:44
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ise_baslama' in 'field list'
+Raw SQL : INSERT INTO personeller ( 
+        kullanici_id, ise_baslama, pozisyon, kan_grubu 
+        ) VALUES ( 
+        :kullanici_id, :ise_baslama, :pozisyon, :kan_grubu)
+
+Time : 21:40:29
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ise_baslama' in 'field list'
+Raw SQL : INSERT INTO personeller ( 
+        kullanici_id, ise_baslama, pozisyon, kan_grubu 
+        ) VALUES ( 
+        :kullanici_id, :ise_baslama, :pozisyon, :kan_grubu)
+
+Time : 21:31:36
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ise_baslama' in 'field list'
+Raw SQL : INSERT INTO personeller ( 
+        kullanici_id, ise_baslama, pozisyon, kan_grubu 
+        ) VALUES ( 
+        :kullanici_id, :ise_baslama, :pozisyon, :kan_grubu)
+
+Time : 21:29:14
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ise_baslama' in 'field list'
+Raw SQL : INSERT INTO personeller ( 
+        kullanici_id, ise_baslama, pozisyon 
+        ) VALUES ( 
+        :kullanici_id, :ise_baslama, :pozisyon)
+
+Time : 21:26:27
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ise_baslama' in 'field list'
+Raw SQL : INSERT INTO personeller ( 
+        kullanici_id, ise_baslama, pozisyon, kan_grubu 
+        ) VALUES ( 
+        :kullanici_id, :ise_baslama, :pozisyon, :kan_grubu)
+
+Time : 21:18:49
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ise_baslama' in 'field list'
+Raw SQL : INSERT INTO personeller ( 
+        kullanici_id, ise_baslama, pozisyon, kan_grubu 
+        ) VALUES ( 
+        :kullanici_id, :ise_baslama, :pozisyon, :kan_grubu)
+
+Time : 21:06:49
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ise_baslama' in 'field list'
+Raw SQL : INSERT INTO personeller ( 
+        kullanici_id, ise_baslama, pozisyon 
+        ) VALUES ( 
+        :kullanici_id, :ise_baslama, :pozisyon)
+
+Time : 15:53:07
+SQLSTATE[HY000] [2002] Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+
+Time : 03:16:26
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO musteriler ( 
+        kullanici_id 
+        ) VALUES ( 
+        :kullanici_id)

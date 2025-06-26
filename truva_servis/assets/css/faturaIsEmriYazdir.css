@@ -1,0 +1,95 @@
+
+@page {
+  size: A4 portrait;
+  margin: 10mm;
+}
+
+@media print {
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 210mm;
+    height: 297mm;
+    font-size: 9px !important;
+    line-height: 1 !important;
+    background: white !important;
+    overflow: visible !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  body * {
+    visibility: hidden;
+  }
+
+  #fatura, #fatura * {
+    visibility: visible;
+  }
+
+  #fatura {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 190mm !important;
+    margin: 0 auto !important;
+    min-height: 277mm !important;
+    background: white !important;
+    z-index: 9999 !important;
+  }
+
+  /* Sidebar, navbar vs. yazdırmada gizle */
+  .navbar,
+  .sidebar,
+  .main-sidebar,
+  .control-sidebar,
+  .sidebar-overlay,
+  .modal-backdrop,
+  .no-print,
+  .btn,
+  .card-tools,
+  .content-header,
+  footer {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
+  .content-wrapper, .content, .container-fluid, .card, .row, .col {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    box-shadow: none !important;
+    page-break-inside: avoid !important;
+  }
+
+  table {
+    width: 100% !important;
+    font-size: 8px !important;
+    border-collapse: collapse !important;
+  }
+
+  tr, td, th {
+    padding: 2px !important;
+    border: 1px solid #000 !important;
+  }
+
+  h1, h2, h3, h4, h5 {
+    margin: 2px 0 !important;
+    font-size: 10px !important;
+  }
+
+  .col, .col-6, .col-md-6, .col-lg-6 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+
+  .row {
+    margin: 0 !important;
+  }
+
+  .content-wrapper, .content {
+    margin-left: 0 !important;
+  }
+}
+
+
+

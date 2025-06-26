@@ -1,0 +1,70 @@
+Time : 19:25:30
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'k.ad' in 'SELECT'
+Raw SQL : SELECT 
+                        s.seri_no, 
+                        s.kategoriler_id, 
+                        k.ad AS kategori_adi, 
+                        s.alt_kategoriler_id, 
+                        ak.ad AS alt_kategori_adi, 
+                        s.marka, 
+                        SUM(s.adet) AS toplam_adet, 
+                        s.birim_fiyat, 
+                        s.kdv_orani, 
+                        s.satis_fiyati
+                    FROM stoklar s
+                    LEFT JOIN kategoriler k ON s.kategoriler_id = k.id
+                    LEFT JOIN alt_kategoriler ak ON s.alt_kategoriler_id = ak.id
+                    WHERE s.seri_no = :seri_no
+                    GROUP BY 
+                        s.seri_no, 
+                        s.kategoriler_id, 
+                        s.alt_kategoriler_id, 
+                        s.marka, 
+                        s.birim_fiyat, 
+                        s.kdv_orani, 
+                        s.satis_fiyati, 
+                        k.ad, 
+                        ak.ad
+
+Time : 19:20:37
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'SELECT'
+Raw SQL : SELECT seri_no, stok_kategori, yedek_parca_ad, marka, SUM(adet) AS toplam_adet, birim_fiyat, kdv_orani, satis_fiyati 
+                     FROM stoklar 
+                     WHERE seri_no = :seri_no 
+                     GROUP BY seri_no, stok_kategori, yedek_parca_ad, marka, birim_fiyat, kdv_orani, satis_fiyati
+
+Time : 19:11:08
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'SELECT'
+Raw SQL : SELECT seri_no, stok_kategori, yedek_parca_ad, marka, SUM(adet) AS toplam_adet, birim_fiyat, kdv_orani, satis_fiyati 
+                     FROM stoklar 
+                     WHERE seri_no = :seri_no 
+                     GROUP BY seri_no, stok_kategori, yedek_parca_ad, marka, birim_fiyat, kdv_orani, satis_fiyati
+
+Time : 19:02:38
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kategori_id' in 'WHERE'
+Raw SQL : SELECT * FROM alt_kategoriler WHERE kategori_id = '1'
+
+Time : 18:49:16
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kategori_id' in 'WHERE'
+Raw SQL : SELECT * FROM alt_kategoriler WHERE kategori_id = '1'
+
+Time : 13:27:42
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stok_kategori' in 'SELECT'
+Raw SQL : SELECT seri_no, stok_kategori, yedek_parca_ad, marka, SUM(adet) AS toplam_adet, birim_fiyat, kdv_orani, satis_fiyati 
+                     FROM stoklar 
+                     WHERE seri_no = :seri_no 
+                     GROUP BY seri_no, stok_kategori, yedek_parca_ad, marka, birim_fiyat, kdv_orani, satis_fiyati
+
+Time : 00:08:04
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'satis_fiyat' in 'SET'
+Raw SQL : UPDATE stoklar SET  
+                satis_fiyat = :satis_fiyat  
+                WHERE olusturulma_tarihi = :birim_fiyat_olusturulma_tarihi  
+                AND seri_no = :birim_fiyat_seri_no
+
+Time : 00:07:34
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'satis_fiyat' in 'SET'
+Raw SQL : UPDATE stoklar SET  
+                satis_fiyat = :satis_fiyat  
+                WHERE olusturulma_tarihi = :birim_fiyat_olusturulma_tarihi  
+                AND seri_no = :birim_fiyat_seri_no
