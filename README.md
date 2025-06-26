@@ -19,6 +19,6 @@ This project is deployed and actively used in a real-world environment. All modu
 - For privacy reasons, demo accounts and database access are not shared.
 
 ## 👨‍💻 Developer
-Developed and maintained by [Your Name]
+Developed and maintained by Abdullah Can ERDEM
 
 ---
