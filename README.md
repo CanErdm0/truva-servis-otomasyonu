@@ -1,30 +1,24 @@
 # Truva Tractor Service Automation
 
-A web-based automation system designed to manage tractor service operations. It includes modules for customers, personnel, and administrators.
+A fully functional web-based automation system designed for managing tractor service operations. This project includes real-time modules for administrators, personnel, and customers.
 
-## 🎯 Features
-- Appointment management
-- Service tracking
-- Stock and inventory management
-- User roles: Admin, Personnel, Customer
-- Reporting and invoice system
+## 🎯 Key Features
+- Customer and appointment management
+- Service process tracking and updates
+- Inventory and stock control
+- Role-based panel access (Admin, Staff, Customer)
+- Invoicing and reporting tools
+- Contact and guest access module (limited features without login)
 
-## 🚀 Getting Started
-1. Clone the repo
-2. Import the SQL database
-3. Configure the connection settings in `config.php`
-4. Run on a local server (XAMPP, etc.)
+## ⚙️ Deployment
+This project is deployed and actively used in a real-world environment. All modules are tested and in production.
 
-## 🧪 Test Accounts
-- Admin: `admin@example.com` / `1234`
-- Personnel: `personel@example.com` / `1234`
-- Customer: `musteri@example.com` / `1234`
+## 📌 Notes
+- Built with a focus on usability, performance, and modularity.
+- Designed to scale and adapt based on service center needs.
+- For privacy reasons, demo accounts and database access are not shared.
 
-## 📌 Technologies Used
-- Web-based structure
-- Clean and user-friendly interface
-- Role-based access
+## 👨‍💻 Developer
+Developed and maintained by [Your Name]
 
 ---
-
-Feel free to improve or customize it for your needs.
